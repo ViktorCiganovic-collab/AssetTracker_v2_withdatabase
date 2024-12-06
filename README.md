@@ -19,7 +19,7 @@ End of Life Marking: Products that have exceeded their useful life are highlight
 Currency Conversion: The local price of assets is converted to EURO. The currency conversion is updated daily by fetching real-time rates through an API.
 
 ## Getting Started
-###Prerequisites
+### Prerequisites
 To get started with the Asset Tracker project, you will need the following installed:
 
 Visual Studio (or any C# compatible IDE)
