@@ -4,9 +4,8 @@ namespace AssetTracker
 {
     internal class MyDbContext : DbContext
     {
-        string ConnectionString = "Server=localhost\\SQLEXPRESS;Database=assetsDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
-
-
+        string ConnectionString = "Server=(localdb)\\mssqllocaldb;Database=efdb1;Integrated Security=True;";
+        
         public DbSet<Assets> Assets { get; set; }
         public DbSet<Products> Products { get; set; }
 
